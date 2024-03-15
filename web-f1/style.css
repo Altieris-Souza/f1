@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+.modal{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.drivers {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.drivers div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.drivers label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.drivers select {
+    width: 200px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+.btnRun{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btnRun button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    width: 85%;
+}
+
+.btnRun button:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+}
